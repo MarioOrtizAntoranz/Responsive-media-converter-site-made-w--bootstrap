@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta content="./images/favicon.png" itemprop="image">
+  <meta content="Convertir, video, gratis, gratuito, YouTube, MP3, AAC, WMA, M4A, OGG, MP4, 3GP, AVI, MPG, WMV , FLV " name="keywords">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">  
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="images/favicon.ico">
+  <title>Video converter</title>
+</head>
+
+<body>
+
+<header class="navbar navbar-static-top bs-docs-nav">
+  <div class="container">
+    <div class="navbar-header">          
+      <a class="navbar-brand"  href="#"><img  src="images/cloud-header.png" alt="cloud-converter-logo">
+      <span >Convertidor de archivos</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<div class="jumbotron bs-docs-header">
+      <div class="container">
+        <div class="cloud-icon"></div>
+        <h1>Convierte cualquier archivo de audio y vídeo. ¡Es gratis!.</h1>
+        <h2>YouTube a MP3, AAC, WMA, M4A, OGG, MP4, 3GP, AVI, MPG, WMV y FLV. En un instante. </h2>
+    </div>
+</div>
+
+<div class="jumbotron content">
+<div class="container">
+<div class="row">
+<div class="col-lg-10">
+
+<div class="step">
+
+<div class="col-lg-12 step-1">
+
+<div class="step-number">1.&nbsp;</div>
+
+<p> Introduce la dirección multimedia:</p>
+ 
+    <form class="enter-url"> 
+    <div class="alert alert-danger" role="alert">URL inválida</div>
+    <div class="col-lg-8 input-group">
+      <input type="text" autofocus class="form-control">
+      <span class="input-group-btn">
+        <button class="btn btn-default btn-continue" type="button">Continuar</button>
+      </span>
+    </div><!-- /input-group -->
+    <div class="alert alert-warning" role="alert"><i class="fa fa-spinner fa-spin"></i>&nbsp;Verificando dirección web...</div>
+    
+
+  <p class="supported"> Servicios Soportados: Direct Download, YouTube (HQ and HD), Google Vídeo, Sevenload, MySpace, Dailymotion (HQ), Vimeo (HQ), Metacafe, MyVideo, Veoh, SoundCloud.</p>
+ 
+    <button type="button" class="btn btn-default btn-download"><i class="fa fa-cloud-download"></i>&nbsp;Descarga el archivo sin convertir</button>
+    
+    <div class="col-lg-6 file-addons">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><i class="fa fa-eye"></i>&nbsp;Mira el archivo multimedia </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                       <iframe   width="640" height="385" src="http://www.youtube.com/embed/XGSy3_Czz8k"></iframe> 
+                    </div>
+                </div>
+            </div>
+       
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title quality-select-title">
+                    1.2 Selecciona la calidad
+                </h4>
+              </div>
+
+            <div class="panel">
+                <div class="panel-body">
+                    <div class="select-clip-definition">
+                        <ol id="selectable">                                        
+                        <li class="ui-widget-content"> Vídeo <strong> Alta definición (1080p)</strong>, Tamaño: 242 MB</li>
+                        <li class="ui-widget-content ui-selected"> Vídeo<strong> Alta definición (720p)</strong>, Tamaño: 180 MB</li>
+                        <li class="ui-widget-content"> Vídeo<strong> Alta calidad (480p)</strong>, Tamaño: 69 MB</li>
+                        <li class="ui-widget-content"> Vídeo<strong> Calidad standard (360p)</strong>, Tamaño: 46 MB</li>
+                        <li class="ui-widget-content"> Vídeo<strong> Versión móvil (3GP)</strong>, Tamaño: 13 MB</li>
+                        </ol>                  
+                  </div>
+                </div>
+              </div>
+            </div><!-- end accordions -->
+          </div>
+      </div>
+   </form>
+
+
+<div class="col-lg-12  step-2">
+<div class="step-number-container"><div class="step-number">2.&nbsp;</div><p>&nbsp;Escoge el formato de compresión:</p></div>
+
+<div class="row-1">
+<div class="btn-group" data-toggle="buttons">
+<div class="col-lg-12 audiovideo-radio-inputs">
+  <i class="fa fa-file-audio-o"><span class="audio-video-tags"> Solo audio:</span></i>
+  <label class="btn btn-primary"><input type="radio" name="options" id="option1" checked> MP3</label>
+  <label class="btn btn-primary"><input type="radio" name="options" id="option2"> M4A</label>
+  <label class="btn btn-primary"><input type="radio" name="options" id="option3"> AAC</label>
+</div>
+<div class="col-lg-12 audiovideo-radio-inputs">
+  <i class="fa fa-file-video-o"><span class="audio-video-tags"> Solo vídeo:</span></i>
+  <label id="button-tooltip" class="btn btn-primary active" data-toggle="tooltip" data-placement="top" title="Iphone, Ipad, Itunes">
+  <input type="radio" name="options" id="MP4"  checked> MP4</label>
+  <label id="button-tooltip2"  class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Móviles">
+  <input type="radio" name="options" id="3GP" > 3GP</label>
+  <label  id="button-tooltip3"  class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Windows">
+  <input type="radio" name="options" id="AVI" > AVI</label>
+  <label class="btn btn-primary" id="button-tooltip4"  data-toggle="tooltip" data-placement="top" title="Quicktime">
+  <input type="radio" name="options" id="MOV" > MOV</label>
+</div>
+</div>
+</div>
+
+<span class="title-input-file-format"><strong>2.1</strong> Cambia el título del archivo</span>
+<div class="col-lg-7 input-group input-file-format">
+  <input type="text" class="form-control" placeholder="" value="Ruth Lorenzo Knocking On Heavens Door X Factor 08 11 2008 (Safe and Through to the next Round!)">
+  <span class="input-group-addon">.MP4</span>  
+</div>
+
+<div class="row-1">
+        <div class="panel-group" id="accordion2">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">&nbsp;<i class="fa fa-cog"></i>&nbsp;Opciones avanzadas </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </h4>
+                </div>
+                <div id="collapseOne2" class="panel-collapse collapse">
+                   <div class="panel-body">
+                      <div  class="col-lg-12 conversion-options">
+                        <span class="conversion-options-title">2.2 Cambia las opciones de compresión</span>  
+                      
+                      <div class="col-lg-12 conversion-options-wrapper">
+
+                      <div class="col-lg-12 conversion-inputs">
+                              <div class="col-lg-12 conversion-subtitle">Modo Automático:</div>
+                                <div class="col-lg-12 conversion-inputs-wrapper">
+                                  <input type="checkbox" name="autocheckbox" value="1" id="autocheckbox" checked="checked">
+                                  <label for="autocheckbox"  title="">Detectar la mejor configuración automáticamente ~256 kbps</label>
+                              </div>
+                          </div>
+
+                        <div class="col-lg-6 conversion-inputs">           
+                              <div class="col-lg-12 conversion-subtitle">Convertir Desde:</div>
+                                  <div class="col-lg-12 conversion-inputs-wrapper">   
+                                    <input type="checkbox" id="timefrom-start" checked="checked" value="1" name="timefrom-start">
+                                    <label for="timefrom-start">Inicio del Vídeo</label>
+                                  <input type="text" value="00:00:00" id="timefrom" name="timefrom"  title="HH:MM:SS"  disabled>
+                                </div>            
+                        </div>
+                              
+                        <div class="col-lg-6 conversion-inputs ">
+                            <div class="col-lg-12 conversion-subtitle">Convertir Hasta:</div>
+                               <div class="col-lg-12 conversion-inputs-wrapper"> 
+                               <input type="checkbox" id="timeto-end" checked="checked" value="1" name="timeto-end">
+                                <label for="timeto-end">Final del Vídeo</label>
+                                  <input type="text" value="00:00:00" id="timeto" name="timeto" title="HH:MM:SS"  disabled>
+                               </div>
+                            </div>
+                   
+                        <div class="col-lg-6 conversion-inputs">           
+                              <div class="col-lg-12 conversion-subtitle">Volumen de audio:</div>
+                                  <div class="col-lg-6 conversion-inputs-wrapper">                  
+                                      <input type="hidden" name="audiovol" id="audiovol" value="0">
+                                      <div id="slider-range-min"></div>             
+                                  <div class="volume-n"><span>-1</span><span>0</span><span>+1</span></div>
+                                </div>            
+                              </div>
+                              
+                        <div class="col-lg-6 conversion-inputs ">
+                            <div class="col-lg-12 conversion-subtitle">Canales de audio:</div>
+                               <div class="col-lg-12 conversion-inputs-wrapper">              
+                                      <div class="btn-group" data-toggle="buttons">
+                                      <label class="btn btn-primary"><input type="radio" name="options" id="mono" checked> Mono</label>
+                                      <label class="btn btn-primary active"><input type="radio" name="options" id="estereo"> Estéreo</label>
+                                      </div>
+                               </div>
+                            </div>
+
+                            <div class="col-lg-12 conversion-inputs">           
+                              <div class="col-lg-12 conversion-subtitle">Tasa de Bits de Audio:</div>
+                                  <div class="col-lg-6 conversion-inputs-wrapper">                  
+                                      <input type="hidden" name="audiovol" id="audiobits" value="0">
+                                      <div id="slider"></div>             
+                                  <input type="text" id="amount" readonly>
+                                </div>            
+                              </div>
+                   
+
+                    <div class="col-lg-12 conversion-inputs ">
+                        <div class="col-lg-12 conversion-subtitle"><input type="checkbox" id="id3-tags" checked="checked" value="1" name="id3-tags"> 
+                        Usar Etiquetas ID3 v2</div>  
+                        <div class="col-lg-4 artist-input">
+                        <label for="timefrom-start">Artista</label>
+                        <input type="text" value="laSexta Notícias" id="input-artist" name=""  title=""  disabled="">
+                        </div>
+                        <div class="col-lg-4">
+                        <label for="timefrom-start">Título</label>
+                        <input type="text" value="lorem ipsum dolor sit amet... " id="input-title" name=""  title=""  disabled="">
+                        </div>
+                        <div class="col-lg-4">
+                        <label for="timefrom-start">Álbum</label>
+                        <input type="text" value="Convertidor de vídeo" id="input-album" name=""  title=""  disabled="">
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+
+
+<div class="col-lg-12 step-3">
+<div class="step-number-container"><div class="step-number">3.&nbsp;</div><p> Pulsa al botón "Convertir archivo":</p></div>
+<br>
+<div class="btn-convert-container"> 
+<button class="btn btn-default btn-convert" type="button"><i class="fa fa-refresh"></i> Convertir archivo</button>
+<p>Usando éste servicio aceptas nuestras <a href="#">Condiciones de Uso.</a></p>
+</div>
+<br>
+</div>
+
+
+
+<div class="info">
+<div class="num-converts"><p>Hemos convertido <strong>6,526,875</strong> con un tamaño total de <strong>83.75 TB</strong>.</p> </div>
+<div class="info-title">¿Qué es convertidor de vídeo?</div>
+ <p>Convertidor de vídeo es una <strong>aplicación gratuita para convertir multimedia</strong> que permite usar casi cualquier dirección web de audio o vídeo hacia los formatos más comunes. Servicios actualmente soportados: Descarga Directa, YouTube [HQ (Alta Calidad) y HD (Alta Definición)], Google Video, Sevenload, MySpace, Dailymotion [HQ (Alta Definición)], Vimeo [HQ (Alta Definición)], Metacafe, MyVideo, YouPorn, Pornhub, Veoh. Este gratuito y rápido convertidor le permite <strong>ver sus vídeos favoritos </strong> de YouTube en su teléfono móvil, PSP, iPhone o casi cualquier otro dispositivo.</p>
+<br>
+<div class="info-title">¿Cómo convertir un vídeo de YouTube?</div>
+
+<ul>
+<li>1. Copia y Pega la dirección web del vídeo en 'Dirección Multimedia' y presione Continuar.</li>
+<li>2. Selecciona el formato y las opciones para la conversión. Las opciones predeterminadas son la mejor configuración para la mayoría de vídeos.</li>
+<li>3. Presiona el botón 'Comenzar' en la parte baja para iniciar la conversión. Esto puede tomar varios minutos.</li>
+<li>4. Después de finalizada la conversión podrás descargar el archivo.</li>
+</ul>
+</div>
+
+</div><!-- end steps -->
+
+</div>
+</div><!-- end row  col-md-10 -->
+
+<div class="col-lg-2 banner-sky">
+<img src="images/banner.jpg" alt="ad banner">
+</div>
+
+</div><!-- container -->
+</div><!-- jumbotron -->
+
+<div class="alert-cookies">Al utilizar nuestros servicios, aceptas el uso que hacemos de las cookies. <a href="#">Más información</a>	
+<input type="button" value="OK">
+</div>
+
+<div class="footer-wrapper">          
+            <div class="after footer_side1_wrapper">                     
+                <div><a target="_blank" rel="nofollow" href="">Términos y condiciones</a></div>
+                <span class="footer_sep">|</span>
+                <div><a target="_blank" rel="nofollow" href="">Política de privacidad</a></div>                             
+                <span class="footer_sep">|</span>
+                <div><a rel="nofollow" href="">Condiciones del servicio</a></div> 
+                <span class="footer_sep">|</span>
+                <div><a rel="nofollow" href="">¿Quines somos?</a></div> 
+                <span class="footer_sep">|</span>
+                <div><a rel="nofollow" href="">Contacto</a></div> 
+                <span class="footer_sep">|</span>
+                <div>© 2014 Buscador.com</div> 
+			       </div>
+	</div>
+  </div>
+  
+<!-- Latest compiled and minified JavaScript -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+
+  function toggleChevron(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find("i.indicator")
+        .toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+}
+$('#accordion').on('hidden.bs.collapse', toggleChevron);
+$('#accordion').on('shown.bs.collapse', toggleChevron);
+$('#accordion2').on('hidden.bs.collapse', toggleChevron);
+$('#accordion2').on('shown.bs.collapse', toggleChevron);
+  
+/* Quality video select*/
+ $(function() {
+$( "#selectable" ).selectable({
+stop: function() {
+var result = $( "#select-result" ).empty();
+$( ".ui-selected", this ).each(function() {
+var index = $( "#selectable li" ).index( this );
+result.append( " #" + ( index + 1 ) );
+});
+}
+});
+});
+
+/* volume slider*/
+ $(function() {
+    $( "#slider-range-min" ).slider({
+      value:50,
+      min: 0,
+      max: 100,
+      step: 50,     
+    }); 
+  });
+/* kbps slider*/
+ $(function() {
+    $( "#slider" ).slider({
+      value:128,
+      min: 32,
+      max: 320,
+      step: 32,
+      slide: function( event, ui ) {
+        $("#amount").val(ui.value + " Kbps");
+      }
+    });
+    $( "#amount" ).val( $( "#slider" ).slider( "value" ) + " Kbps" );
+  });
+
+  
+$('#button-tooltip').tooltip(
+{animation: false}
+  );
+$('#button-tooltip2').tooltip(
+{animation: false}
+  );
+$('#button-tooltip3').tooltip(
+{animation: false}
+  );
+$('#button-tooltip4').tooltip(
+{animation: false}
+  );
+  }); 
+
+</script>
+</body>
+</html>
